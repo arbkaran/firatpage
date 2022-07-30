@@ -14,7 +14,7 @@ h1 {
   color: orange;
 }
 
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -47,5 +47,37 @@ section {
   background-image: url(dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.bottom-part {
+  background-image: url(exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.bottom-box {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20PX;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px grey;
+
+}
+
+#box-1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#box-2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(orange, yellow);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 
 }
